@@ -1,4 +1,9 @@
-/ddust
+syntax: glob
+.hgignore # ignore the symlink to .gitignore
+./tags
+./.dub/
+*.swp
+./ddust
 eclipse/
 libeay32.dll
 libevent.dll
